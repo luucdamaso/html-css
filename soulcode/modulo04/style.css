@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    background: url(imagem/fundo.jpg) center center no-repeat fixed;
+    width: 98vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div#login {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 350px;
+    height: 180px;
+    border-radius: 2%;
+    margin: auto;
+    position: center center;
+    border: 1px solid white;
+}
+
+div#cadastro {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 500px;
+    height: 280px;
+    border-radius: 2%;
+    margin: auto;
+    position: center center;
+    border: 1px solid white;
+}
+
+form {
+    display: inline-block;
+}
+
+p {
+    padding: 5px;
+    position: relative;
+    margin: relative;
+    text-decoration: solid;
+}
+
+label {
+    font-size: bold;
+    padding: 10px;
+}
+
+input {
+    margin: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+} 
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}

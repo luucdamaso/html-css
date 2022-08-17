@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div id="cadastro">
+        <form action="" autocomplete="on" method="get">
+            <p>
+                <label for="inome">Nome completo:</label>
+                <input type="text" name="nome" id="inome" size="39" required>
+            </p>
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" size="52" required>
+            </p>
+            <p>
+                <label for="iend">Endereço:</label>
+                <input type="text" name="end" id="iend" size="47" required>
+            </p>
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="isxmas" value="M" > <label for="isxmas">Masculino</label><br>
+                <input type="radio" name="sexo" id="isxfem" value="F" > <label for="isxfem">Feminino</label>
+            </fieldset>
+
+            <input type="submit" value="Enter" >
+            <input type="reset" value="Limpar">
+        </form>
+    </div>
+</body>
+</html>
