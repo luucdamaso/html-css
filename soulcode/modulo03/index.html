@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo03</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption { 
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+            border: 1px solid;
+            background-color: aliceblue;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: aliceblue;
+        }
+
+        col.csexo {
+            background-color: rgb(218, 226, 233);
+        }
+
+        col.cidade {
+            background-color: rgb(190, 198, 205);
+        }
+
+        col.cprof {
+            background-color: rgb(167, 174, 180);
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Listas, tabelas e mídias
+    </h1>
+    <h2>Listas</h2>
+    <ul>
+        <li>Listas</li>
+        <li>Listas</li>
+        <li>Listas</li>
+        <li>Listas</li>
+        <li>Listas</li>
+    </ul>
+    <ol>
+        <li>Listas</li>
+        <li>Listas</li>
+        <li>Listas</li>
+        <li>Listas</li>
+        <li>Listas</li>
+    </ol>
+
+    <h2>Tabela</h2>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Katia</td>
+            <td>F</td>
+            <td>47</td>
+            <td>Farmaceutica</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Desempregado</td>
+        </tr>
+        <tr>
+            <td>Juliana</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Professsora</td>
+        </tr>
+    </table>
+    <h2>Imagens</h2>
+    <img src="imagens/pexels-deane-bayas-9805740.jpg" alt="Porsche" width="300" height="400"> <br>
+    <img src="imagens/pexels-zachary-debottis-12890561.jpg" alt="Porsche" width="300" height="400">
+    <h2>Áudio e Vídeo</h2>
+    <audio preload="metadata" controls>
+        <source src="audio/guanacast-33.mp3" type="audio/mpeg">
+    </audio> <br>
+    <video controls width="400">
+        <source src="video/meu-video.webm">
+    </video>
+</body>
+</html>
