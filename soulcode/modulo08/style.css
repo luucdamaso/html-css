@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #18191a;
+    --cor02: #242526;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor01);
+    color: white;
+}
+
+header {
+    background-color: var(--cor02);
+    padding: 10px;
+    min-height: 60px;
+}
+
+main {
+    margin-top: 10px;
+    position: relative;
+}
+
+.roll {
+    margin: 10px auto;
+    padding: 15px;
+    min-width: 300px;
+    max-width: 700px;
+    background-color: var(--cor02);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    margin: 10px;
+    padding: 15px;
+    position: absolute;
+    left: 10px;
+    top: 80px;
+    background-color: var(--cor02);
+    border-radius: 5px;
+    min-width: 150px;
+    max-width: 330px;
+    display: block;
+}
